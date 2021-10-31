@@ -1,21 +1,27 @@
 /**************************************************************************
- This is an example for our Monochrome OLEDs based on SSD1306 drivers
+This is firmware used to connect to the Echelon Connect stationary bicycle 
+and display it on a SSD1330 oled screen. This code was spliced together 
+from examples and open source code, please support Adafruit by visiting 
+their shop (and possibly buying something) and also thank you to SnowZach
+for the reversing magic you performed to get the Bluetooth connection.
 
- Pick one up today in the adafruit shop!
- ------> http://www.adafruit.com/category/63_98
+Adafruit:
+https://www.adafruit.com
 
- This example is for a 128x32 pixel display using I2C to communicate
- 3 pins are required to interface (two I2C and one reset).
+SnowZach's Github:
+https://github.com/snowzach/echbt
 
- Adafruit invests time and resources providing this open
- source code, please support Adafruit and open-source
- hardware by purchasing products from Adafruit!
+    Copyright (C) 2021  Travis Adsitt
+    
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
- Written by Limor Fried/Ladyada for Adafruit Industries,
- with contributions from the open source community.
- BSD license, check license.txt for more information
- All text above, and the splash screen below must be
- included in any redistribution.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
  **************************************************************************/
 
 #include <Arduino.h>
